@@ -1,6 +1,13 @@
 # ***Travel the Same Path(TSP)***: A Novel TSP Solving Strategy
 The paper can be found in [here](https://arxiv.org/abs/2210.05906).
 
+## Installation : 
+Begin by installing ecole via : conda install -c conda-forge scip=8.0.0 or conda install conda-forge/label/ecole_dev::ecole
+install docplex : pip intall docplex
+install torch usinng either conda or pip (THIS IS THE CPU VERSION) : 
+- pip install torch torchvision torchaudio
+- pip install torch-scatter torch-sparse torch-cluster torch-spline-conv torch-geometric
+
 ## Running the Experiment
 
 ### Data Generation
